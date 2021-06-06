@@ -21,26 +21,26 @@ namespace ProductApi.Controllers
         }
 
         [HttpGet]
-        public async Task<IEnumerable<products>> GetBooks()
+        public async Task<IEnumerable<products>> GetProduct()
         {
             return await _productRepository.Get();
         }
 
         [HttpGet("{id}")]
-        public async Task<ActionResult<products>> GetBooks(int id)
+        public async Task<ActionResult<products>> GetProduct(int id)
         {
             return await _productRepository.Get(id);
         }
 
         [HttpPost]
-        public async Task<ActionResult<products>> PostBooks([FromBody] products product)
+        public async Task<ActionResult<products>> PostProduct([FromBody] products product)
         {
             var newProduct= await _productRepository.Create(product);
-            return CreatedAtAction(nameof(GetBooks), new { id = newProduct.id }, newProduct);
+            return CreatedAtAction(nameof(GetProduct), new { id = newProduct.id }, newProduct);
         }
 
         [HttpPut]
-        public async Task<ActionResult> PutBooks(int id, [FromBody] products product)
+        public async Task<ActionResult> PutProduct(int id, [FromBody] products product)
         {
             if (id != product.id)
             {

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "744c3qFH3F3n9ML1cwuIw0+LYDogs8WviC3K46UYMZpb9GpollXQVCToBfk57QJytL0ZbB3Zv3PsVSzuQ0oySw==",
+  "dgSpecHash": "Ar0Mb/jwJX1OrzdHfKB5cKFG+bsPc9BtK/sXyMXdrmFolm11snhJvkNO4X5DtfrAKDkywuW0srXmFTVU0NYZ4w==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Youcode\\Desktop\\ProductApi\\ProductApi\\ProductApi.csproj",
+  "projectFilePath": "C:\\Users\\Youcode\\Desktop\\xamarinF\\ProductApi\\ProductApi\\ProductApi.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Youcode\\.nuget\\packages\\microsoft.csharp\\4.5.0\\microsoft.csharp.4.5.0.nupkg.sha512",
     "C:\\Users\\Youcode\\.nuget\\packages\\microsoft.data.sqlclient\\2.0.1\\microsoft.data.sqlclient.2.0.1.nupkg.sha512",
